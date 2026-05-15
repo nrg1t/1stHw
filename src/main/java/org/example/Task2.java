@@ -5,10 +5,10 @@ public class Task2 {
 //       2. შექმენით ცვლადი და გადაეცით თქვენთვის სასურველი ნებისმიერი
 //წინადადება და შეამოწმეთ, თუ ამ წინადადების სიგრძე იქნება ლუწი რიცხვი,
 //დაბეჭდეთ :"ლუწი", თუ კენტი მაშინ: "კენტი"
-        String sentence = "დავაგვიანე დავალების დაწერა";
-        int sentLength = sentence.length();
+        String text = "დავაგვიანე დავალების დაწერა";
+        int textLength = text.length();
 
-        if (sentLength % 2 ==0 ){
+        if (textLength % 2 ==0 ){
             System.out.println("ლუწი");
         }
         else {

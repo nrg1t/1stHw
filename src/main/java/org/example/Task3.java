@@ -6,9 +6,16 @@ public class Task3 {
 //პოზიციაზე მდგომისა
         int[] numbers = {1, 3, 4, 22, 62, 42, 34, 74, 52, 35, 55};
         for (int i = 0; i < numbers.length; i++) {
-            if (i != 4) {
-                System.out.println(numbers[i]);
+            if (i == 4) {
+                continue;
             }
+            System.out.println(numbers[i]);
         }
+//        for (int i = 0; i < numbers.length; i++) {
+//            if (i != 4) {
+//                System.out.println(numbers[i]);
+//            }
+//        }
     }
+
 }
