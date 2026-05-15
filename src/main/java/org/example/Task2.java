@@ -9,10 +9,10 @@ public class Task2 {
         int textLength = text.length();
 
         if (textLength % 2 ==0 ){
-            System.out.println("ლუწი");
+            System.out.println("წინადადებაში სიმბოლოების რაოდენობა არის ლ უ წ ი");
         }
         else {
-            System.out.println("კენტი");
+            System.out.println("წინადადებაში სიმბოლოების რაოდენობა არის კ ე ნ ტ ი");
         }
 
     }
